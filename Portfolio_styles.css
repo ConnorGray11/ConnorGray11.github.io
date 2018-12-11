@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*
+   final
+
+   Portfolio website
+    Author: Connor Gray
+      Date:   12/3/18
+
+
+*/
+
+/* General Styles */
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, ol, p, section, span, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+html {
+   background-image: url("Screen-saver-example.jpg");
+}
+
+
+/* Body Styles */
+
+body {
+   margin-left: auto;
+   margin-right: auto;
+   background-color:rgb(60, 62, 72);
+   font-family: Verdana, Geneva, Arial, sans-serif; 
+   font-size: 22px;   
+   	width: 100%;
+	max-width: 1152px;
+	min-width: 640px;
+}
+h1{
+	font-size: 1.4em;
+	text-align: center;
+	background-color:rgb(74, 77, 89);
+}
+header{
+	font-size: 1.4em;
+	text-align: center
+}
+h2{
+	font-size: 1.4em;
+	text-align: center;
+}
+/* Horizontal Navigation List Styles */
+
+nav.horizontal ul li {
+   background-color:rgb(124, 125, 131);
+   display: block;
+   font-size: 15px;
+   float: left;
+   line-height: 30px;
+   height: 30px;
+   width: 230px;
+}
+
+nav.horizontal a {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
+   
+nav.horizontal a:link, nav.horizontal:visited {
+   color: rgb(216, 194, 57);
+}
+
+nav.horizontal a:hover, nav.horizontal:active {
+   background-color: rgb(105, 110, 150);
+}
+
+
+/* Footer Styles */
+Footer{
+	background-color: rgb(173, 176, 199)
+}
+
+/* Article Styles */
+
+
+
+
+
+/* Aside Styles */
+aside > ul{
+	margin-left: 50px;
+	border: 2px solid rgb(173, 176, 199);
+}
+
+

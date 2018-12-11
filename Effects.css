@@ -1,0 +1,30 @@
+ @charset "utf-8";
+
+/*
+
+   final
+
+   Portfolio website
+    Author: Connor Gray
+      Date:   12/3/18
+   Filename:  Effects.css
+
+*/
+
+/* HTML Styles */
+
+
+/* Body Styles */
+body {
+	background: radial-gradient(circle closest-corner at 90% 10%, cyan 20%,  rgba(0, 0, 0, 0) 30%),
+						 radial-gradient(circle closest-Corner at 10% 10%, cyan 20%,  rgba(0, 0, 0, 0) 30%),
+						 rgb(60, 62, 72);
+	box-shadow: 	15px 0px 45px rgb(57, 109, 111),
+							-15px 0px 45px rgb(31,31,31);
+					 }
+					 
+					 
+					 
+					 
+					 
+	/* header styles /*
