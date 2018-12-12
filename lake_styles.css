@@ -1,0 +1,72 @@
+﻿@charset "utf-8";
+@font-face{
+    font-family: Champagne;
+    src: url(cac_champagne.woff) format('woff') ,
+    url(cac_champagne.ttf) format('truetype');
+}/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: connor gray, Nick Boschert 
+   Date:   10/3/18
+   
+   Filename: lake_styles.css
+
+*/
+/* HTML and Body Styles*/
+html {
+	background-color: rgb(151, 151, 151)
+}
+body {
+	background-color: rgb(255, 255, 255);
+	font-size: 1.1em;
+}
+
+
+/* header styles */
+ header > nav > ul > li {
+	background-color: rgb(189, 183, 107);
+}
+header > nav > ul > li > a:link,header > nav > ul > li a:visited {
+	color: rgb(0, 0, 255);
+	text-decoration: none;
+}
+header > nav > ul > li > a:hover, header > nav > ul > li > a:active {
+    background-color: rgb(160, 24, 55);
+	opacity:0.8;
+}
+section#leftcol h1 {
+	 font-size: 2.3em;
+	 font-style: italic;
+	 padding-right:0px;
+	 padding-top:0px;
+	 padding-bottom: 0px;
+	 padding-left: 0px;
+ }
+
+/* nav styles */
+section#rightcol {
+	background-color: rgb(221, 160, 170);
+}
+/* aside blockquote styles */
+section#leftcol aside{
+	background-color: rgb(205, 112, 84);
+	opacity: 0.8;
+	font-weight: bold;
+	font-size: 1.0em;
+}
+section#leftcol aside h2{
+	background-color: rgb(189, 183, 107);
+	font-size: 1.1em;
+}
+/* Footer Styles */
+footer {
+    background-color: rgb(189, 183, 107)
+    ; color: white; 
+    color: rgba(255, 255, 255,0.7);
+    font: normal small-caps bold 0.9em/3em
+    quicksand, verdana, geneva, sans-serif;
+    text-align: center;}
+

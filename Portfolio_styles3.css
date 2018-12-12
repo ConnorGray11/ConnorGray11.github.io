@@ -84,11 +84,12 @@ nav.horizontal a:hover, nav.horizontal:active {
 /* Footer Styles */
 Footer{
 	background-color: rgb(173, 176, 199)
+}
 
-
-/* Article Styles */
-
-
+/* Image Styles */
+img{
+float: left;
+}
 
 
 
