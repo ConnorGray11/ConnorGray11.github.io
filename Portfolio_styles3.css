@@ -43,15 +43,22 @@ body {
 }
 h1{
 	font-size: 1.4em;
-	text-align: center
+	text-align: center;
+	
 }
 header{
 	font-size: 1.4em;
-	text-align: center
+	text-align: center;
 }
 p{
 	font-size: 1.6em
 	
+}
+h2{
+	font-size: 1.4em;
+	text-align: center;
+		background-color:rgb(74, 77, 89);
+
 }
 
 /* Horizontal Navigation List Styles */
@@ -61,9 +68,9 @@ nav.horizontal ul li {
    display: block;
    font-size: 15px;
    float: left;
-   line-height: 30px;
+   line-height: 20px;
    height: 30px;
-	width: 230px;
+	width: 20%;
 }
 
 nav.horizontal a {

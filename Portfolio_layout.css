@@ -25,12 +25,25 @@ float:right;
 
 
 	body {
-		margin-top: 20px;
-		margin-bottom: 20px;
+
 		margin-left: auto;
 		margin-right:auto;
 		position: relative;
 		min-height: 100%
+	}
+	/* ===============================
+	Mobile Styles up to 480 pixels
+   ===============================
+*/
+@media only screen and (max-width: 480px) {
+	nav.horizontal ul li {
+		width: 100px
+	}
+	h1{
+		font-size: 10px
+		
+
+
 	}
 
 
